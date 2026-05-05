@@ -1,28 +1,36 @@
-# 嗨! 👋
+# Hi, I'm Yang
 
-iOS 應用開發者，專長 Swift 
+I’m an iOS engineer based in Prague, now focusing more deeply on mobile security research.
 
-☕ iOS developer who turns coffee into code! 📱 Passionate about crafting mobile experiences and wrestling with cross-platform development.
+My background is in building iOS products and SDKs. More recently, I’ve been working on runtime protection, hook detection, memory integrity, and reverse-engineering-driven validation. This shift into security is recent in title, but not in interest. It feels like the natural extension of how I already think about systems: how they behave, where they break, and what happens under adversarial pressure.
 
-## 作品集 Portfolio
+## Current Focus
 
-- SAP Concur
-- Bonder
-- OPT 歐趴糖
-- Golf4Holland
-- EZTABLE
-- Mobile01
+- iOS runtime behavior
+- Reverse engineering with Ghidra
+- RASP, hook detection, and anti-tampering
+- Mobile security research and proof-of-concepts
 
-## 履歷 Resume
+## Background
 
-- SAP Concur 
-- STRV 
-- Viscovery 
-- EZTABLE 
-- Hami
-- Mobile01 
+- Mobile Security Engineer at Thales
+- Senior iOS Developer at SAP Concur
+- 10+ years across iOS product engineering, SDK work, and mobile architecture
 
+## Selected Repositories
 
-- 💬 Ask me about `iOS` development and `SwiftUI`
-- 🤝 I'm looking to collaborate on design and user experience oriented projects
-- 😊 Pronouns: he/him
+- [CombineStore](https://github.com/boska/CombineStore) - a lightweight state management library for SwiftUI apps using Combine
+- [BRLabel](https://github.com/boska/BRLabel) - a small Objective-C UI component with public adoption from earlier iOS work
+
+## What I'm Building Toward
+
+I’m using this profile more intentionally now to document the move from product-focused iOS engineering into security research. Over time, this space will include more notes, experiments, and small public artifacts around iOS internals, runtime protections, and related research problems.
+
+## Selected Links
+
+- Website: [boska.dev](https://boska.dev)
+- LinkedIn: [linkedin.com/in/yangleetw](https://www.linkedin.com/in/yangleetw)
+
+## Contact
+
+- `yangleetw@icloud.com`
