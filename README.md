@@ -19,6 +19,7 @@ My background is in building iOS products and SDKs. More recently, I’ve been w
 
 ## Repository
 
+- [ios-security-starter](https://github.com/boska/ios-security-starter) - iOS starter project with passive security checks and XCFramework audit CI
 - [CombineStore](https://github.com/boska/CombineStore) - a lightweight state management library for SwiftUI apps using Combine
 
 ## What I'm Building Toward
