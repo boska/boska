@@ -1,32 +1,33 @@
 # Hi, I'm Yang
 
-I’m an iOS engineer based in Prague, now focusing more deeply on mobile security research.
+Mobile security engineer based in Prague. Ten years of iOS product engineering, the last of which building defense-grade security SDKs at Thales.
 
-My background is in building iOS products and SDKs. More recently, I’ve been working on runtime protection, hook detection, memory integrity, and reverse-engineering-driven validation. This shift into security is recent in title, but not in interest. It feels like the natural extension of how I already think about systems: how they behave, where they break, and what happens under adversarial pressure.
+I write about what I research at **[boska.ai/blog](https://boska.ai/blog)**.
 
-## Current Focus
+## Current Work
 
-- iOS runtime behavior
-- Reverse engineering with Ghidra
+- iOS MEMS sensor bias as a Physical Unclonable Function (PUF) for device fingerprinting
+- Static analysis of iOS binaries with Ghidra
 - RASP, hook detection, and anti-tampering
-- Mobile security research and proof-of-concepts
+
+## Recent Research
+
+- [Your iPhone's Accelerometer Has a Fingerprint](https://boska.ai/blog/ios-sensor-puf-fingerprinting) — MEMS sensor bias as a device fingerprint signal. iPhone vs iPad: 45% uniqueness gap, SNR 53x.
+- [What a Jailbreak Binary Tells You Without Running It](https://boska.ai/blog/reverse-engineering-dopamine-jailbreak) — Static analysis of the Dopamine jailbreak. 6,660 strings, 4-stage attack chain, no device needed.
+
+## Open Source
+
+- [SensorPrint](https://github.com/boska/SensorPrint) — iOS app for measuring MEMS accelerometer/gyroscope static bias. Research tool for PUF-based device fingerprinting.
+- [ios-private-api-detection-poc](https://github.com/boska/ios-private-api-detection-poc) — Detection of private API usage in iOS binaries
+- [secret-memory](https://github.com/boska/secret-memory) — Swift property wrapper for short-lived sensitive data with secure wipe
 
 ## Background
 
-- Mobile Security Engineer at Thales
-- Senior iOS Developer at SAP Concur
-- 10+ years across iOS product engineering, SDK work, and mobile architecture
-
-## Repository
-
-- [ios-security-starter](https://github.com/boska/ios-security-starter) - iOS starter project with passive security checks and XCFramework audit CI
-- [secret-memory](https://github.com/boska/secret-memory) - Handy @Secret property wrapper for short-live sensitive data
-- [CombineStore](https://github.com/boska/CombineStore) - a lightweight state management library for SwiftUI apps using Combine
-
-## What I'm Building Toward
-
-I’m using this profile more intentionally now to document the move from product-focused iOS engineering into security research. Over time, this space will include more notes, experiments, and small public artifacts around iOS internals, runtime protections, and related research problems.
+- Mobile Security Engineer — Thales (RASP, Frida/Substrate detection, memory integrity)
+- Senior iOS Developer — SAP Concur
+- 10+ years iOS, Swift, Objective-C
 
 ## Links
 
+- Blog: [boska.ai/blog](https://boska.ai/blog)
 - LinkedIn: [linkedin.com/in/yangleetw](https://www.linkedin.com/in/yangleetw)
